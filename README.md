@@ -12,3 +12,13 @@
             ssl_key_path: './xmas-privkey.pem'
         }
 ````
+
+### Set led strip length and count leds in one group if you need
+1. In app.js here you can change led strip length
+````js
+        this.strip = new Strip(180)
+````
+2. In app.js here you can change count leds per group
+````js
+        this.countInGroup = 30
+````
