@@ -4,9 +4,7 @@
 ## Instructions
 
 ### Set TLS certificate
-1. You need copy Certificate and Key to this directory
-“Certificate is saved at: /etc/letsencrypt/live/test-xmas.maff.io/fullchain.pem
-Key is saved at:         /etc/letsencrypt/live/test-xmas.maff.io/privkey.pem”
+1. You need copy Certificate and Key to directory with project
 2. Change names to your names in app.js in ssl_cert_path and ssl_key_path
 ````js
         this.config = {
